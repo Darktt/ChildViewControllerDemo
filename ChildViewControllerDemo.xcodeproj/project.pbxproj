@@ -10,45 +10,45 @@
 		55CEE33A2BF384FD0020B66E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CEE3392BF384FD0020B66E /* AppDelegate.swift */; };
 		55CEE33C2BF384FD0020B66E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CEE33B2BF384FD0020B66E /* SceneDelegate.swift */; };
 		55CEE33E2BF384FD0020B66E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CEE33D2BF384FD0020B66E /* ViewController.swift */; };
-		55CEE3412BF384FD0020B66E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CEE33F2BF384FD0020B66E /* Main.storyboard */; };
 		55CEE3432BF384FE0020B66E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CEE3422BF384FE0020B66E /* Assets.xcassets */; };
 		55CEE3462BF384FE0020B66E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CEE3442BF384FE0020B66E /* LaunchScreen.storyboard */; };
-		55CEE3512BF384FE0020B66E /* ChildViewControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CEE3502BF384FE0020B66E /* ChildViewControllerDemoTests.swift */; };
-		55CEE35B2BF384FE0020B66E /* ChildViewControllerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CEE35A2BF384FE0020B66E /* ChildViewControllerDemoUITests.swift */; };
-		55CEE35D2BF384FE0020B66E /* ChildViewControllerDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CEE35C2BF384FE0020B66E /* ChildViewControllerDemoUITestsLaunchTests.swift */; };
+		55CEE36A2BF385180020B66E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55CEE3692BF385180020B66E /* ViewController.xib */; };
+		55CEE36C2BF385EE0020B66E /* FluentInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CEE36B2BF385ED0020B66E /* FluentInterface.swift */; };
+		55CEE3702BF38A120020B66E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CEE36E2BF38A120020B66E /* PageViewController.swift */; };
+		55CEE3742BF38C830020B66E /* RandomColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CEE3722BF38C830020B66E /* RandomColorViewController.swift */; };
+		55CEE3752BF38C830020B66E /* RandomColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55CEE3732BF38C830020B66E /* RandomColorViewController.xib */; };
+		55CEE3782BF38CFE0020B66E /* SwiftExtensions.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CEE3772BF38CFE0020B66E /* SwiftExtensions.xcframework */; };
+		55CEE3792BF38CFE0020B66E /* SwiftExtensions.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 55CEE3772BF38CFE0020B66E /* SwiftExtensions.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		55CEE34D2BF384FE0020B66E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55CEE32E2BF384FD0020B66E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55CEE3352BF384FD0020B66E;
-			remoteInfo = ChildViewControllerDemo;
+/* Begin PBXCopyFilesBuildPhase section */
+		55CEE37A2BF38CFE0020B66E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				55CEE3792BF38CFE0020B66E /* SwiftExtensions.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55CEE3572BF384FE0020B66E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55CEE32E2BF384FD0020B66E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55CEE3352BF384FD0020B66E;
-			remoteInfo = ChildViewControllerDemo;
-		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		55CEE3362BF384FD0020B66E /* ChildViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChildViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CEE3392BF384FD0020B66E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55CEE33B2BF384FD0020B66E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		55CEE33D2BF384FD0020B66E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		55CEE3402BF384FD0020B66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55CEE3422BF384FE0020B66E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55CEE3452BF384FE0020B66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55CEE3472BF384FE0020B66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55CEE34C2BF384FE0020B66E /* ChildViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55CEE3502BF384FE0020B66E /* ChildViewControllerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewControllerDemoTests.swift; sourceTree = "<group>"; };
-		55CEE3562BF384FE0020B66E /* ChildViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55CEE35A2BF384FE0020B66E /* ChildViewControllerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewControllerDemoUITests.swift; sourceTree = "<group>"; };
-		55CEE35C2BF384FE0020B66E /* ChildViewControllerDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewControllerDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55CEE3692BF385180020B66E /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		55CEE36B2BF385ED0020B66E /* FluentInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluentInterface.swift; sourceTree = "<group>"; };
+		55CEE36E2BF38A120020B66E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		55CEE3722BF38C830020B66E /* RandomColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorViewController.swift; sourceTree = "<group>"; };
+		55CEE3732BF38C830020B66E /* RandomColorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RandomColorViewController.xib; sourceTree = "<group>"; };
+		55CEE3772BF38CFE0020B66E /* SwiftExtensions.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftExtensions.xcframework; path = Framework/SwiftExtensions.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,20 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55CEE3492BF384FE0020B66E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55CEE3532BF384FE0020B66E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				55CEE3782BF38CFE0020B66E /* SwiftExtensions.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				55CEE3382BF384FD0020B66E /* ChildViewControllerDemo */,
-				55CEE34F2BF384FE0020B66E /* ChildViewControllerDemoTests */,
-				55CEE3592BF384FE0020B66E /* ChildViewControllerDemoUITests */,
 				55CEE3372BF384FD0020B66E /* Products */,
+				55CEE3762BF38CFE0020B66E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				55CEE3362BF384FD0020B66E /* ChildViewControllerDemo.app */,
-				55CEE34C2BF384FE0020B66E /* ChildViewControllerDemoTests.xctest */,
-				55CEE3562BF384FE0020B66E /* ChildViewControllerDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +83,14 @@
 		55CEE3382BF384FD0020B66E /* ChildViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				55CEE36D2BF385F70020B66E /* Model */,
 				55CEE3392BF384FD0020B66E /* AppDelegate.swift */,
 				55CEE33B2BF384FD0020B66E /* SceneDelegate.swift */,
 				55CEE33D2BF384FD0020B66E /* ViewController.swift */,
-				55CEE33F2BF384FD0020B66E /* Main.storyboard */,
+				55CEE3692BF385180020B66E /* ViewController.xib */,
+				55CEE36E2BF38A120020B66E /* PageViewController.swift */,
+				55CEE3722BF38C830020B66E /* RandomColorViewController.swift */,
+				55CEE3732BF38C830020B66E /* RandomColorViewController.xib */,
 				55CEE3422BF384FE0020B66E /* Assets.xcassets */,
 				55CEE3442BF384FE0020B66E /* LaunchScreen.storyboard */,
 				55CEE3472BF384FE0020B66E /* Info.plist */,
@@ -110,21 +98,20 @@
 			path = ChildViewControllerDemo;
 			sourceTree = "<group>";
 		};
-		55CEE34F2BF384FE0020B66E /* ChildViewControllerDemoTests */ = {
+		55CEE36D2BF385F70020B66E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				55CEE3502BF384FE0020B66E /* ChildViewControllerDemoTests.swift */,
+				55CEE36B2BF385ED0020B66E /* FluentInterface.swift */,
 			);
-			path = ChildViewControllerDemoTests;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		55CEE3592BF384FE0020B66E /* ChildViewControllerDemoUITests */ = {
+		55CEE3762BF38CFE0020B66E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				55CEE35A2BF384FE0020B66E /* ChildViewControllerDemoUITests.swift */,
-				55CEE35C2BF384FE0020B66E /* ChildViewControllerDemoUITestsLaunchTests.swift */,
+				55CEE3772BF38CFE0020B66E /* SwiftExtensions.xcframework */,
 			);
-			path = ChildViewControllerDemoUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +124,7 @@
 				55CEE3322BF384FD0020B66E /* Sources */,
 				55CEE3332BF384FD0020B66E /* Frameworks */,
 				55CEE3342BF384FD0020B66E /* Resources */,
+				55CEE37A2BF38CFE0020B66E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,42 +134,6 @@
 			productName = ChildViewControllerDemo;
 			productReference = 55CEE3362BF384FD0020B66E /* ChildViewControllerDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		55CEE34B2BF384FE0020B66E /* ChildViewControllerDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55CEE3632BF384FE0020B66E /* Build configuration list for PBXNativeTarget "ChildViewControllerDemoTests" */;
-			buildPhases = (
-				55CEE3482BF384FE0020B66E /* Sources */,
-				55CEE3492BF384FE0020B66E /* Frameworks */,
-				55CEE34A2BF384FE0020B66E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				55CEE34E2BF384FE0020B66E /* PBXTargetDependency */,
-			);
-			name = ChildViewControllerDemoTests;
-			productName = ChildViewControllerDemoTests;
-			productReference = 55CEE34C2BF384FE0020B66E /* ChildViewControllerDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		55CEE3552BF384FE0020B66E /* ChildViewControllerDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55CEE3662BF384FE0020B66E /* Build configuration list for PBXNativeTarget "ChildViewControllerDemoUITests" */;
-			buildPhases = (
-				55CEE3522BF384FE0020B66E /* Sources */,
-				55CEE3532BF384FE0020B66E /* Frameworks */,
-				55CEE3542BF384FE0020B66E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				55CEE3582BF384FE0020B66E /* PBXTargetDependency */,
-			);
-			name = ChildViewControllerDemoUITests;
-			productName = ChildViewControllerDemoUITests;
-			productReference = 55CEE3562BF384FE0020B66E /* ChildViewControllerDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -195,14 +147,6 @@
 				TargetAttributes = {
 					55CEE3352BF384FD0020B66E = {
 						CreatedOnToolsVersion = 15.2;
-					};
-					55CEE34B2BF384FE0020B66E = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 55CEE3352BF384FD0020B66E;
-					};
-					55CEE3552BF384FE0020B66E = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 55CEE3352BF384FD0020B66E;
 					};
 				};
 			};
@@ -220,8 +164,6 @@
 			projectRoot = "";
 			targets = (
 				55CEE3352BF384FD0020B66E /* ChildViewControllerDemo */,
-				55CEE34B2BF384FE0020B66E /* ChildViewControllerDemoTests */,
-				55CEE3552BF384FE0020B66E /* ChildViewControllerDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,22 +174,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				55CEE3462BF384FE0020B66E /* LaunchScreen.storyboard in Resources */,
+				55CEE3752BF38C830020B66E /* RandomColorViewController.xib in Resources */,
 				55CEE3432BF384FE0020B66E /* Assets.xcassets in Resources */,
-				55CEE3412BF384FD0020B66E /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55CEE34A2BF384FE0020B66E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55CEE3542BF384FE0020B66E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				55CEE36A2BF385180020B66E /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,52 +188,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				55CEE33E2BF384FD0020B66E /* ViewController.swift in Sources */,
+				55CEE3742BF38C830020B66E /* RandomColorViewController.swift in Sources */,
+				55CEE3702BF38A120020B66E /* PageViewController.swift in Sources */,
 				55CEE33A2BF384FD0020B66E /* AppDelegate.swift in Sources */,
 				55CEE33C2BF384FD0020B66E /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55CEE3482BF384FE0020B66E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55CEE3512BF384FE0020B66E /* ChildViewControllerDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55CEE3522BF384FE0020B66E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55CEE35B2BF384FE0020B66E /* ChildViewControllerDemoUITests.swift in Sources */,
-				55CEE35D2BF384FE0020B66E /* ChildViewControllerDemoUITestsLaunchTests.swift in Sources */,
+				55CEE36C2BF385EE0020B66E /* FluentInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		55CEE34E2BF384FE0020B66E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 55CEE3352BF384FD0020B66E /* ChildViewControllerDemo */;
-			targetProxy = 55CEE34D2BF384FE0020B66E /* PBXContainerItemProxy */;
-		};
-		55CEE3582BF384FE0020B66E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 55CEE3352BF384FD0020B66E /* ChildViewControllerDemo */;
-			targetProxy = 55CEE3572BF384FE0020B66E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		55CEE33F2BF384FD0020B66E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55CEE3402BF384FD0020B66E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		55CEE3442BF384FE0020B66E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -368,6 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSMainNibFile = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -425,6 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSMainNibFile = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -444,11 +340,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChildViewControllerDemo/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,11 +368,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChildViewControllerDemo/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,78 +384,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		55CEE3642BF384FE0020B66E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ChildViewControllerDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChildViewControllerDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChildViewControllerDemo";
-			};
-			name = Debug;
-		};
-		55CEE3652BF384FE0020B66E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ChildViewControllerDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChildViewControllerDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChildViewControllerDemo";
-			};
-			name = Release;
-		};
-		55CEE3672BF384FE0020B66E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ChildViewControllerDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ChildViewControllerDemo;
-			};
-			name = Debug;
-		};
-		55CEE3682BF384FE0020B66E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.ChildViewControllerDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ChildViewControllerDemo;
 			};
 			name = Release;
 		};
@@ -578,24 +404,6 @@
 			buildConfigurations = (
 				55CEE3612BF384FE0020B66E /* Debug */,
 				55CEE3622BF384FE0020B66E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		55CEE3632BF384FE0020B66E /* Build configuration list for PBXNativeTarget "ChildViewControllerDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55CEE3642BF384FE0020B66E /* Debug */,
-				55CEE3652BF384FE0020B66E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		55CEE3662BF384FE0020B66E /* Build configuration list for PBXNativeTarget "ChildViewControllerDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55CEE3672BF384FE0020B66E /* Debug */,
-				55CEE3682BF384FE0020B66E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
